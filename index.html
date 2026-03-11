@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_22513cfbf34e184c45556c7591853a22 {
+                #map_e9bb77a6d690dde8e3d2bc8684c81b0e {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -274,6 +274,70 @@
                         }
                     </style>
             
+    
+                    <style>
+                        .foliumtooltip {
+                            
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumtooltip {
+                            
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.css"/>
     <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
@@ -284,7 +348,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_22513cfbf34e184c45556c7591853a22" ></div>
+            <div class="folium-map" id="map_e9bb77a6d690dde8e3d2bc8684c81b0e" ></div>
         
     
             
@@ -312,8 +376,8 @@
 <script>
     
     
-            var map_22513cfbf34e184c45556c7591853a22 = L.map(
-                "map_22513cfbf34e184c45556c7591853a22",
+            var map_e9bb77a6d690dde8e3d2bc8684c81b0e = L.map(
+                "map_e9bb77a6d690dde8e3d2bc8684c81b0e",
                 {
                     center: [0.0, 0.0],
                     crs: L.CRS.EPSG3857,
@@ -335,22 +399,22 @@
 
                 }
             );
-            L.control.scale().addTo(map_22513cfbf34e184c45556c7591853a22);
+            L.control.scale().addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
 
             
             function objects_in_front() {
-                    geo_json_be4b987a01c524ecc682e5cebe0f8d09.bringToFront();
-                    geo_json_bd8c70af1e9a10500b2521a0f513c54e.bringToFront();
-                    geo_json_4aacf512b0a4f70328839a80699f9778.bringToFront();
-                    geo_json_9a019ab97baf790c8d1d6304dcf6cfae.bringToFront();
-                    geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78.bringToFront();
+                    geo_json_9ccd7000ac66452f5b305773b7fa945b.bringToFront();
+                    geo_json_4ca94e2accababafbcf5ce07f004bfcc.bringToFront();
+                    geo_json_d836d81bbc41b0c1ed4f1da72bb78577.bringToFront();
+                    geo_json_b8a83178cb720c5cead02be762d7a8e1.bringToFront();
+                    geo_json_ad12929ee6ed8878fe7023c5359bf568.bringToFront();
             };
-            map_22513cfbf34e184c45556c7591853a22.on("overlayadd", objects_in_front);
+            map_e9bb77a6d690dde8e3d2bc8684c81b0e.on("overlayadd", objects_in_front);
             $(document).ready(objects_in_front);
 
         
     
-            var tile_layer_64e13955d1c927cb1ea92b6f8fde969c = L.tileLayer(
+            var tile_layer_431ba715396991d43024e2770236d9fd = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 7,
@@ -367,10 +431,10 @@
             );
         
     
-            tile_layer_64e13955d1c927cb1ea92b6f8fde969c.addTo(map_22513cfbf34e184c45556c7591853a22);
+            tile_layer_431ba715396991d43024e2770236d9fd.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
         
     
-            var tile_layer_8f7d5c11e26f82d11752b1323331e604 = L.tileLayer(
+            var tile_layer_2908d755ae252da4035cbacb1b841844 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -387,10 +451,10 @@
             );
         
     
-            tile_layer_8f7d5c11e26f82d11752b1323331e604.addTo(map_22513cfbf34e184c45556c7591853a22);
+            tile_layer_2908d755ae252da4035cbacb1b841844.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
         
     
-            var tile_layer_f7e754fa18a298e4fe44c5382b4bdaf7 = L.tileLayer(
+            var tile_layer_9b808f0ac4d446d2ce5cdd30f193b213 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
@@ -407,7 +471,7 @@
             );
         
     
-            var tile_layer_e9cb75d3dbcb707908d37c0e3468cdd3 = L.tileLayer(
+            var tile_layer_90f92da2811c6765b12bf11d347c14c9 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
@@ -424,7 +488,7 @@
             );
         
     
-            var tile_layer_cb0282ce73d2ad3d108c38497b0722a7 = L.tileLayer(
+            var tile_layer_8a24a338a13d930ee31f8b410318ad4a = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
@@ -441,7 +505,7 @@
             );
         
     
-            var tile_layer_bc2a055053a602ed163a11f8903e05b5 = L.tileLayer(
+            var tile_layer_1f0040a9fe935ffa4ba7b2e539cfb728 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
@@ -458,13 +522,13 @@
             );
         
     
-            var macro_element_e705e41026965515f558ea34e42286fa = L.tileLayer.wms(
+            var macro_element_5d80a2d039c16ce342f8979adb3b2701 = L.tileLayer.wms(
                 "https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi",
                 {"attribution": "", "format": "image/png", "layers": "ASTER_GDEM_Greyscale_Shaded_Relief", "styles": "", "transparent": true, "version": "1.1.1"}
             );
         
     
-        function geo_json_fee8027abd9c3777a12708f8a9c96249_styler(feature) {
+        function geo_json_b46b1f5c1d6da2273423b217e97c4235_styler(feature) {
             switch(feature.properties.event_id) {
                 case "uw62221086": 
                     return {"color": "#333333", "fillColor": "#fbd724", "fillOpacity": 0.8, "radius": 3.623333333333333, "weight": 0.5};
@@ -6726,7 +6790,7 @@
                     return {"color": "#333333", "fillColor": "#fbd724", "fillOpacity": 0.8, "radius": 4.586666666666667, "weight": 0.5};
             }
         }
-        function geo_json_fee8027abd9c3777a12708f8a9c96249_pointToLayer(feature, latlng) {
+        function geo_json_b46b1f5c1d6da2273423b217e97c4235_pointToLayer(feature, latlng) {
             var opts = {
   "stroke": true,
   "color": "#3388ff",
@@ -6744,36 +6808,36 @@
   "radius": 10,
 };
             
-            let style = geo_json_fee8027abd9c3777a12708f8a9c96249_styler(feature)
+            let style = geo_json_b46b1f5c1d6da2273423b217e97c4235_styler(feature)
             Object.assign(opts, style)
             
             return new L.CircleMarker(latlng, opts)
         }
 
-        function geo_json_fee8027abd9c3777a12708f8a9c96249_onEachFeature(feature, layer) {
+        function geo_json_b46b1f5c1d6da2273423b217e97c4235_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_fee8027abd9c3777a12708f8a9c96249 = L.geoJson(null, {
-                onEachFeature: geo_json_fee8027abd9c3777a12708f8a9c96249_onEachFeature,
+        var geo_json_b46b1f5c1d6da2273423b217e97c4235 = L.geoJson(null, {
+                onEachFeature: geo_json_b46b1f5c1d6da2273423b217e97c4235_onEachFeature,
             
-                style: geo_json_fee8027abd9c3777a12708f8a9c96249_styler,
-                pointToLayer: geo_json_fee8027abd9c3777a12708f8a9c96249_pointToLayer,
+                style: geo_json_b46b1f5c1d6da2273423b217e97c4235_styler,
+                pointToLayer: geo_json_b46b1f5c1d6da2273423b217e97c4235_pointToLayer,
             ...{
 }
         });
 
-        function geo_json_fee8027abd9c3777a12708f8a9c96249_add (data) {
-            geo_json_fee8027abd9c3777a12708f8a9c96249
+        function geo_json_b46b1f5c1d6da2273423b217e97c4235_add (data) {
+            geo_json_b46b1f5c1d6da2273423b217e97c4235
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/gaia-hazlab/catalog/refs/heads/main/pnw_eq_catalog_2025.geojson", {dataType: 'json', async: false})
-                .done(geo_json_fee8027abd9c3777a12708f8a9c96249_add);
+                .done(geo_json_b46b1f5c1d6da2273423b217e97c4235_add);
 
         
     
-    geo_json_fee8027abd9c3777a12708f8a9c96249.bindTooltip(
+    geo_json_b46b1f5c1d6da2273423b217e97c4235.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -6806,7 +6870,7 @@
 });
                      
     
-    geo_json_fee8027abd9c3777a12708f8a9c96249.bindPopup(
+    geo_json_b46b1f5c1d6da2273423b217e97c4235.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -6857,7 +6921,7 @@
         layer_legend_1._isOnMap = false;
 
         // Get reference to the layer
-        var targetLayer_layer_legend_1 = geo_json_fee8027abd9c3777a12708f8a9c96249;
+        var targetLayer_layer_legend_1 = geo_json_b46b1f5c1d6da2273423b217e97c4235;
 
         // Register this legend with the layer reference
         window._layerColorbarLegends['layer_legend_1'] = {
@@ -6866,7 +6930,7 @@
         };
 
         // Listen for layer add events on the map
-        map_22513cfbf34e184c45556c7591853a22.on('layeradd', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layeradd', function(e) {
             if (e.layer === targetLayer_layer_legend_1) {
                 // Remove all other legends from the map first
                 for (var key in window._layerColorbarLegends) {
@@ -6877,13 +6941,13 @@
                     }
                 }
                 // Add this legend to the map
-                layer_legend_1.addTo(map_22513cfbf34e184c45556c7591853a22);
+                layer_legend_1.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
                 layer_legend_1._isOnMap = true;
             }
         });
 
         // Listen for layer remove events on the map
-        map_22513cfbf34e184c45556c7591853a22.on('layerremove', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layerremove', function(e) {
             if (e.layer === targetLayer_layer_legend_1) {
                 if (layer_legend_1._isOnMap) {
                     layer_legend_1.remove();
@@ -6893,7 +6957,193 @@
         });
         
     
-            var tile_layer_2c52e79f30711d2aa8fda40430e30301 = L.tileLayer(
+        function geo_json_92489a18b6c2ae696aa4f65f110e50af_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "red", "fillColor": "none", "fillOpacity": 0, "weight": 2};
+            }
+        }
+
+        function geo_json_92489a18b6c2ae696aa4f65f110e50af_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_92489a18b6c2ae696aa4f65f110e50af = L.geoJson(null, {
+                onEachFeature: geo_json_92489a18b6c2ae696aa4f65f110e50af_onEachFeature,
+            
+                style: geo_json_92489a18b6c2ae696aa4f65f110e50af_styler,
+            ...{
+}
+        });
+
+        function geo_json_92489a18b6c2ae696aa4f65f110e50af_add (data) {
+            geo_json_92489a18b6c2ae696aa4f65f110e50af
+                .addData(data);
+        }
+            $.ajax("https://gis.dnr.wa.gov/site3/rest/services/Public_Wildfire/WADNR_PUBLIC_WD_WildFire_Data/MapServer/0/query?where=YEAR+%3E%3D+2023+AND+ACRES+%3E+247\u0026outFields=%2A\u0026f=geojson\u0026maxAllowableOffset=0.001", {dataType: 'json', async: false})
+                .done(geo_json_92489a18b6c2ae696aa4f65f110e50af_add);
+
+        
+    
+    geo_json_92489a18b6c2ae696aa4f65f110e50af.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["FIRENAME"];
+    let aliases = ["FIRENAME"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "sticky": true,
+  "className": "foliumtooltip",
+});
+                     
+    
+    geo_json_92489a18b6c2ae696aa4f65f110e50af.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["FIRENAME", "YEAR", "STARTDATE", "PERIMDATE", "SHAPE.AREA", "CAUSE"];
+    let aliases = ["FIRENAME", "YEAR", "STARTDATE", "PERIMDATE", "SHAPE.AREA", "CAUSE"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "className": "foliumpopup",
+});
+                     
+    
+
+        function geo_json_e844c4cb7a101cdd5f57e3f2e897d36b_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_e844c4cb7a101cdd5f57e3f2e897d36b = L.geoJson(null, {
+                onEachFeature: geo_json_e844c4cb7a101cdd5f57e3f2e897d36b_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_e844c4cb7a101cdd5f57e3f2e897d36b_add (data) {
+            geo_json_e844c4cb7a101cdd5f57e3f2e897d36b
+                .addData(data);
+        }
+            $.ajax("https://services.arcgis.com/4x406oNViizbGo13/arcgis/rest/services/Recently_Reported_Landslides_in_Washington_State/FeatureServer/0/query?where=WATER_YEAR+%3D+%272025-2026%27\u0026outFields=%2A\u0026f=geojson", {dataType: 'json', async: false})
+                .done(geo_json_e844c4cb7a101cdd5f57e3f2e897d36b_add);
+        geo_json_e844c4cb7a101cdd5f57e3f2e897d36b.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+    geo_json_e844c4cb7a101cdd5f57e3f2e897d36b.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["DAMAGE_DESC"];
+    let aliases = ["DAMAGE_DESC"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "sticky": true,
+  "className": "foliumtooltip",
+});
+                     
+    
+    geo_json_e844c4cb7a101cdd5f57e3f2e897d36b.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature => {
+        if (feature === null) {
+            return '';
+        } else if (typeof(feature)=='object') {
+            return JSON.stringify(feature);
+        } else {
+            return feature;
+        }
+    }
+    let fields = ["REPORTED_LANDSLIDE_ID", "LAT", "LONG", "MONTH", "DATE_SHOWN", "WATER_YEAR", "NEAREST_PLACE", "INFO_SOURCE", "DAMAGE_DESC"];
+    let aliases = ["REPORTED_LANDSLIDE_ID", "LAT", "LONG", "MONTH", "DATE_SHOWN", "WATER_YEAR", "NEAREST_PLACE", "INFO_SOURCE", "DAMAGE_DESC"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i].toLocaleString()}</th>
+            
+            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "className": "foliumpopup",
+});
+                     
+    
+            var tile_layer_5fa67e52da01879d6c6e506fbfbf0695 = L.tileLayer(
                 "https://mt1.google.com/vt/lyrs=h\u0026x={x}\u0026y={y}\u0026z={z}",
                 {
   "minZoom": 0,
@@ -6910,36 +7160,36 @@
             );
         
     
-        function geo_json_48aa1db5dcc1cab80c5c3ba7f7bdcc4d_styler(feature) {
+        function geo_json_6cf3e649c298dd54c347a54d78ffcf56_styler(feature) {
             switch(feature.properties.name) {
                 default:
                     return {"color": "blue", "fillColor": "blue", "fillOpacity": 0.1, "weight": 2};
             }
         }
 
-        function geo_json_48aa1db5dcc1cab80c5c3ba7f7bdcc4d_onEachFeature(feature, layer) {
+        function geo_json_6cf3e649c298dd54c347a54d78ffcf56_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_48aa1db5dcc1cab80c5c3ba7f7bdcc4d = L.geoJson(null, {
-                onEachFeature: geo_json_48aa1db5dcc1cab80c5c3ba7f7bdcc4d_onEachFeature,
+        var geo_json_6cf3e649c298dd54c347a54d78ffcf56 = L.geoJson(null, {
+                onEachFeature: geo_json_6cf3e649c298dd54c347a54d78ffcf56_onEachFeature,
             
-                style: geo_json_48aa1db5dcc1cab80c5c3ba7f7bdcc4d_styler,
+                style: geo_json_6cf3e649c298dd54c347a54d78ffcf56_styler,
             ...{
 }
         });
 
-        function geo_json_48aa1db5dcc1cab80c5c3ba7f7bdcc4d_add (data) {
-            geo_json_48aa1db5dcc1cab80c5c3ba7f7bdcc4d
+        function geo_json_6cf3e649c298dd54c347a54d78ffcf56_add (data) {
+            geo_json_6cf3e649c298dd54c347a54d78ffcf56
                 .addData(data);
         }
             $.ajax("https://hydro.nationalmap.gov/arcgis/rest/services/wbd/FeatureServer/4/query?where=1%3D1\u0026geometry=-124%2C45%2C-116%2C49\u0026geometryType=esriGeometryEnvelope\u0026inSR=4326\u0026spatialRel=esriSpatialRelIntersects\u0026outFields=name%2Chuc8%2Careasqkm\u0026outSR=4326\u0026f=geojson\u0026maxAllowableOffset=0.01", {dataType: 'json', async: false})
-                .done(geo_json_48aa1db5dcc1cab80c5c3ba7f7bdcc4d_add);
+                .done(geo_json_6cf3e649c298dd54c347a54d78ffcf56_add);
 
         
     
-    geo_json_48aa1db5dcc1cab80c5c3ba7f7bdcc4d.bindTooltip(
+    geo_json_6cf3e649c298dd54c347a54d78ffcf56.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -6972,7 +7222,7 @@
 });
                      
     
-    geo_json_48aa1db5dcc1cab80c5c3ba7f7bdcc4d.bindPopup(
+    geo_json_6cf3e649c298dd54c347a54d78ffcf56.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -7006,7 +7256,7 @@
 });
                      
     
-            var tile_layer_256bc7b7061965c555dc4af4c4c6b328 = L.tileLayer(
+            var tile_layer_99c9d8561853283d7c744cd1e5536861 = L.tileLayer(
                 "https://titiler.xyz/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=https://storage.googleapis.com/solus100pub/anylithicdpt_cm_p.tif",
                 {
   "minZoom": 0,
@@ -7040,7 +7290,7 @@
         layer_legend_2._isOnMap = false;
 
         // Get reference to the layer
-        var targetLayer_layer_legend_2 = tile_layer_256bc7b7061965c555dc4af4c4c6b328;
+        var targetLayer_layer_legend_2 = tile_layer_99c9d8561853283d7c744cd1e5536861;
 
         // Register this legend with the layer reference
         window._layerColorbarLegends['layer_legend_2'] = {
@@ -7049,7 +7299,7 @@
         };
 
         // Listen for layer add events on the map
-        map_22513cfbf34e184c45556c7591853a22.on('layeradd', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layeradd', function(e) {
             if (e.layer === targetLayer_layer_legend_2) {
                 // Remove all other legends from the map first
                 for (var key in window._layerColorbarLegends) {
@@ -7060,13 +7310,13 @@
                     }
                 }
                 // Add this legend to the map
-                layer_legend_2.addTo(map_22513cfbf34e184c45556c7591853a22);
+                layer_legend_2.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
                 layer_legend_2._isOnMap = true;
             }
         });
 
         // Listen for layer remove events on the map
-        map_22513cfbf34e184c45556c7591853a22.on('layerremove', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layerremove', function(e) {
             if (e.layer === targetLayer_layer_legend_2) {
                 if (layer_legend_2._isOnMap) {
                     layer_legend_2.remove();
@@ -7076,7 +7326,7 @@
         });
         
     
-            var tile_layer_c928c21a47b394baae72f8be49a0215b = L.tileLayer(
+            var tile_layer_e13801ca45bed2351316886ee066788c = L.tileLayer(
                 "https://earthquake.usgs.gov/arcgis/rest/services/eq/vs30_mosaic/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
@@ -7155,14 +7405,14 @@
         };
         esri_legend_1._isOnMap = false;
 
-        var targetLayer_esri_legend_1 = tile_layer_c928c21a47b394baae72f8be49a0215b;
+        var targetLayer_esri_legend_1 = tile_layer_e13801ca45bed2351316886ee066788c;
 
         window._layerEsriLegends['esri_legend_1'] = {
             legend: esri_legend_1,
             layer: targetLayer_esri_legend_1
         };
 
-        map_22513cfbf34e184c45556c7591853a22.on('layeradd', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layeradd', function(e) {
             if (e.layer === targetLayer_esri_legend_1) {
                 // Remove all colorbar legends first
                 if (typeof window._layerColorbarLegends !== 'undefined') {
@@ -7182,12 +7432,12 @@
                         entry.legend._isOnMap = false;
                     }
                 }
-                esri_legend_1.addTo(map_22513cfbf34e184c45556c7591853a22);
+                esri_legend_1.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
                 esri_legend_1._isOnMap = true;
             }
         });
 
-        map_22513cfbf34e184c45556c7591853a22.on('layerremove', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layerremove', function(e) {
             if (e.layer === targetLayer_esri_legend_1) {
                 if (esri_legend_1._isOnMap) {
                     esri_legend_1.remove();
@@ -7197,7 +7447,7 @@
         });
         
     
-            var macro_element_fb17fbe8779968ded7253ded95a226c6 = L.tileLayer.wms(
+            var macro_element_c14076a5f3ed531124d69754d3262f6c = L.tileLayer.wms(
                 "https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi",
                 {"attribution": "", "format": "image/png", "layers": "ASTER_GDEM_Color_Index", "styles": "", "transparent": false, "version": "1.1.1"}
             );
@@ -7219,14 +7469,14 @@
         };
         gibs_legend_1._isOnMap = false;
 
-        var targetLayer_gibs_legend_1 = macro_element_fb17fbe8779968ded7253ded95a226c6;
+        var targetLayer_gibs_legend_1 = macro_element_c14076a5f3ed531124d69754d3262f6c;
 
         window._layerGIBSLegends['gibs_legend_1'] = {
             legend: gibs_legend_1,
             layer: targetLayer_gibs_legend_1
         };
 
-        map_22513cfbf34e184c45556c7591853a22.on('layeradd', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layeradd', function(e) {
             if (e.layer === targetLayer_gibs_legend_1) {
                 // Remove all colorbar legends first
                 if (typeof window._layerColorbarLegends !== 'undefined') {
@@ -7256,12 +7506,12 @@
                         entry.legend._isOnMap = false;
                     }
                 }
-                gibs_legend_1.addTo(map_22513cfbf34e184c45556c7591853a22);
+                gibs_legend_1.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
                 gibs_legend_1._isOnMap = true;
             }
         });
 
-        map_22513cfbf34e184c45556c7591853a22.on('layerremove', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layerremove', function(e) {
             if (e.layer === targetLayer_gibs_legend_1) {
                 if (gibs_legend_1._isOnMap) {
                     gibs_legend_1.remove();
@@ -7271,7 +7521,7 @@
         });
         
     
-            var macro_element_51f6cb3a8911810d9f72593179a13332 = L.tileLayer.wms(
+            var macro_element_fde1defce467491a6ad260ba68d23b87 = L.tileLayer.wms(
                 "https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi?TIME=2025-01-01",
                 {"attribution": "", "format": "image/png", "layers": "OPERA_L3_DIST-ANN-HLS_Color_Index", "styles": "", "transparent": false, "version": "1.1.1"}
             );
@@ -7293,14 +7543,14 @@
         };
         gibs_legend_2._isOnMap = false;
 
-        var targetLayer_gibs_legend_2 = macro_element_51f6cb3a8911810d9f72593179a13332;
+        var targetLayer_gibs_legend_2 = macro_element_fde1defce467491a6ad260ba68d23b87;
 
         window._layerGIBSLegends['gibs_legend_2'] = {
             legend: gibs_legend_2,
             layer: targetLayer_gibs_legend_2
         };
 
-        map_22513cfbf34e184c45556c7591853a22.on('layeradd', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layeradd', function(e) {
             if (e.layer === targetLayer_gibs_legend_2) {
                 // Remove all colorbar legends first
                 if (typeof window._layerColorbarLegends !== 'undefined') {
@@ -7330,12 +7580,12 @@
                         entry.legend._isOnMap = false;
                     }
                 }
-                gibs_legend_2.addTo(map_22513cfbf34e184c45556c7591853a22);
+                gibs_legend_2.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
                 gibs_legend_2._isOnMap = true;
             }
         });
 
-        map_22513cfbf34e184c45556c7591853a22.on('layerremove', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layerremove', function(e) {
             if (e.layer === targetLayer_gibs_legend_2) {
                 if (gibs_legend_2._isOnMap) {
                     gibs_legend_2.remove();
@@ -7345,7 +7595,7 @@
         });
         
     
-            var tile_layer_607d4e700caa631797ec18095137389c = L.tileLayer(
+            var tile_layer_85ac32fbf0342e6203d686613f079118 = L.tileLayer(
                 "https://titiler.xyz/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=https://gaia-hazlab-map-data.s3.us-west-2.amazonaws.com/rainfall_4km.tif\u0026rescale=0,700\u0026nodata=nan\u0026colormap_name=viridis",
                 {
   "minZoom": 0,
@@ -7379,7 +7629,7 @@
         layer_legend_3._isOnMap = false;
 
         // Get reference to the layer
-        var targetLayer_layer_legend_3 = tile_layer_607d4e700caa631797ec18095137389c;
+        var targetLayer_layer_legend_3 = tile_layer_85ac32fbf0342e6203d686613f079118;
 
         // Register this legend with the layer reference
         window._layerColorbarLegends['layer_legend_3'] = {
@@ -7388,7 +7638,7 @@
         };
 
         // Listen for layer add events on the map
-        map_22513cfbf34e184c45556c7591853a22.on('layeradd', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layeradd', function(e) {
             if (e.layer === targetLayer_layer_legend_3) {
                 // Remove all other legends from the map first
                 for (var key in window._layerColorbarLegends) {
@@ -7399,13 +7649,13 @@
                     }
                 }
                 // Add this legend to the map
-                layer_legend_3.addTo(map_22513cfbf34e184c45556c7591853a22);
+                layer_legend_3.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
                 layer_legend_3._isOnMap = true;
             }
         });
 
         // Listen for layer remove events on the map
-        map_22513cfbf34e184c45556c7591853a22.on('layerremove', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layerremove', function(e) {
             if (e.layer === targetLayer_layer_legend_3) {
                 if (layer_legend_3._isOnMap) {
                     layer_legend_3.remove();
@@ -7415,7 +7665,7 @@
         });
         
     
-            var tile_layer_8f0300a222ee0e6944aa8f413ee6e92a = L.tileLayer(
+            var tile_layer_8dfcf2b09a15c65458abc6c6890053c0 = L.tileLayer(
                 "https://titiler.xyz/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=https://gaia-hazlab-map-data.s3.us-west-2.amazonaws.com/max_erm_4km.tif\u0026rescale=0,3\u0026nodata=nan\u0026colormap_name=plasma",
                 {
   "minZoom": 0,
@@ -7449,7 +7699,7 @@
         layer_legend_4._isOnMap = false;
 
         // Get reference to the layer
-        var targetLayer_layer_legend_4 = tile_layer_8f0300a222ee0e6944aa8f413ee6e92a;
+        var targetLayer_layer_legend_4 = tile_layer_8dfcf2b09a15c65458abc6c6890053c0;
 
         // Register this legend with the layer reference
         window._layerColorbarLegends['layer_legend_4'] = {
@@ -7458,7 +7708,7 @@
         };
 
         // Listen for layer add events on the map
-        map_22513cfbf34e184c45556c7591853a22.on('layeradd', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layeradd', function(e) {
             if (e.layer === targetLayer_layer_legend_4) {
                 // Remove all other legends from the map first
                 for (var key in window._layerColorbarLegends) {
@@ -7469,13 +7719,13 @@
                     }
                 }
                 // Add this legend to the map
-                layer_legend_4.addTo(map_22513cfbf34e184c45556c7591853a22);
+                layer_legend_4.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
                 layer_legend_4._isOnMap = true;
             }
         });
 
         // Listen for layer remove events on the map
-        map_22513cfbf34e184c45556c7591853a22.on('layerremove', function(e) {
+        map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('layerremove', function(e) {
             if (e.layer === targetLayer_layer_legend_4) {
                 if (layer_legend_4._isOnMap) {
                     layer_legend_4.remove();
@@ -7485,7 +7735,7 @@
         });
         
     
-        function geo_json_be4b987a01c524ecc682e5cebe0f8d09_pointToLayer(feature, latlng) {
+        function geo_json_9ccd7000ac66452f5b305773b7fa945b_pointToLayer(feature, latlng) {
             var opts = {
 };
             
@@ -7501,30 +7751,30 @@
             return new L.Marker(latlng, opts)
         }
 
-        function geo_json_be4b987a01c524ecc682e5cebe0f8d09_onEachFeature(feature, layer) {
+        function geo_json_9ccd7000ac66452f5b305773b7fa945b_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_be4b987a01c524ecc682e5cebe0f8d09 = L.geoJson(null, {
-                onEachFeature: geo_json_be4b987a01c524ecc682e5cebe0f8d09_onEachFeature,
+        var geo_json_9ccd7000ac66452f5b305773b7fa945b = L.geoJson(null, {
+                onEachFeature: geo_json_9ccd7000ac66452f5b305773b7fa945b_onEachFeature,
             
-                pointToLayer: geo_json_be4b987a01c524ecc682e5cebe0f8d09_pointToLayer,
+                pointToLayer: geo_json_9ccd7000ac66452f5b305773b7fa945b_pointToLayer,
             ...{
 }
         });
 
-        function geo_json_be4b987a01c524ecc682e5cebe0f8d09_add (data) {
-            geo_json_be4b987a01c524ecc682e5cebe0f8d09
+        function geo_json_9ccd7000ac66452f5b305773b7fa945b_add (data) {
+            geo_json_9ccd7000ac66452f5b305773b7fa945b
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/gaia-hazlab/catalog/refs/heads/main/seismic-stations.geojson", {dataType: 'json', async: false})
-                .done(geo_json_be4b987a01c524ecc682e5cebe0f8d09_add);
-        geo_json_be4b987a01c524ecc682e5cebe0f8d09.setStyle(function(feature) {return feature.properties.style;});
+                .done(geo_json_9ccd7000ac66452f5b305773b7fa945b_add);
+        geo_json_9ccd7000ac66452f5b305773b7fa945b.setStyle(function(feature) {return feature.properties.style;});
 
         
     
-    geo_json_be4b987a01c524ecc682e5cebe0f8d09.bindTooltip(
+    geo_json_9ccd7000ac66452f5b305773b7fa945b.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -7557,7 +7807,7 @@
 });
                      
     
-    geo_json_be4b987a01c524ecc682e5cebe0f8d09.bindPopup(
+    geo_json_9ccd7000ac66452f5b305773b7fa945b.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -7591,7 +7841,7 @@
 });
                      
     
-        function geo_json_bd8c70af1e9a10500b2521a0f513c54e_pointToLayer(feature, latlng) {
+        function geo_json_4ca94e2accababafbcf5ce07f004bfcc_pointToLayer(feature, latlng) {
             var opts = {
 };
             
@@ -7607,30 +7857,30 @@
             return new L.Marker(latlng, opts)
         }
 
-        function geo_json_bd8c70af1e9a10500b2521a0f513c54e_onEachFeature(feature, layer) {
+        function geo_json_4ca94e2accababafbcf5ce07f004bfcc_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_bd8c70af1e9a10500b2521a0f513c54e = L.geoJson(null, {
-                onEachFeature: geo_json_bd8c70af1e9a10500b2521a0f513c54e_onEachFeature,
+        var geo_json_4ca94e2accababafbcf5ce07f004bfcc = L.geoJson(null, {
+                onEachFeature: geo_json_4ca94e2accababafbcf5ce07f004bfcc_onEachFeature,
             
-                pointToLayer: geo_json_bd8c70af1e9a10500b2521a0f513c54e_pointToLayer,
+                pointToLayer: geo_json_4ca94e2accababafbcf5ce07f004bfcc_pointToLayer,
             ...{
 }
         });
 
-        function geo_json_bd8c70af1e9a10500b2521a0f513c54e_add (data) {
-            geo_json_bd8c70af1e9a10500b2521a0f513c54e
+        function geo_json_4ca94e2accababafbcf5ce07f004bfcc_add (data) {
+            geo_json_4ca94e2accababafbcf5ce07f004bfcc
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/gaia-hazlab/catalog/refs/heads/main/infrasound-stations.geojson", {dataType: 'json', async: false})
-                .done(geo_json_bd8c70af1e9a10500b2521a0f513c54e_add);
-        geo_json_bd8c70af1e9a10500b2521a0f513c54e.setStyle(function(feature) {return feature.properties.style;});
+                .done(geo_json_4ca94e2accababafbcf5ce07f004bfcc_add);
+        geo_json_4ca94e2accababafbcf5ce07f004bfcc.setStyle(function(feature) {return feature.properties.style;});
 
         
     
-    geo_json_bd8c70af1e9a10500b2521a0f513c54e.bindTooltip(
+    geo_json_4ca94e2accababafbcf5ce07f004bfcc.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -7663,7 +7913,7 @@
 });
                      
     
-    geo_json_bd8c70af1e9a10500b2521a0f513c54e.bindPopup(
+    geo_json_4ca94e2accababafbcf5ce07f004bfcc.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -7697,7 +7947,7 @@
 });
                      
     
-        function geo_json_4aacf512b0a4f70328839a80699f9778_pointToLayer(feature, latlng) {
+        function geo_json_d836d81bbc41b0c1ed4f1da72bb78577_pointToLayer(feature, latlng) {
             var opts = {
 };
             
@@ -7713,30 +7963,30 @@
             return new L.Marker(latlng, opts)
         }
 
-        function geo_json_4aacf512b0a4f70328839a80699f9778_onEachFeature(feature, layer) {
+        function geo_json_d836d81bbc41b0c1ed4f1da72bb78577_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_4aacf512b0a4f70328839a80699f9778 = L.geoJson(null, {
-                onEachFeature: geo_json_4aacf512b0a4f70328839a80699f9778_onEachFeature,
+        var geo_json_d836d81bbc41b0c1ed4f1da72bb78577 = L.geoJson(null, {
+                onEachFeature: geo_json_d836d81bbc41b0c1ed4f1da72bb78577_onEachFeature,
             
-                pointToLayer: geo_json_4aacf512b0a4f70328839a80699f9778_pointToLayer,
+                pointToLayer: geo_json_d836d81bbc41b0c1ed4f1da72bb78577_pointToLayer,
             ...{
 }
         });
 
-        function geo_json_4aacf512b0a4f70328839a80699f9778_add (data) {
-            geo_json_4aacf512b0a4f70328839a80699f9778
+        function geo_json_d836d81bbc41b0c1ed4f1da72bb78577_add (data) {
+            geo_json_d836d81bbc41b0c1ed4f1da72bb78577
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/gaia-hazlab/catalog/refs/heads/main/snotel_stations.geojson", {dataType: 'json', async: false})
-                .done(geo_json_4aacf512b0a4f70328839a80699f9778_add);
-        geo_json_4aacf512b0a4f70328839a80699f9778.setStyle(function(feature) {return feature.properties.style;});
+                .done(geo_json_d836d81bbc41b0c1ed4f1da72bb78577_add);
+        geo_json_d836d81bbc41b0c1ed4f1da72bb78577.setStyle(function(feature) {return feature.properties.style;});
 
         
     
-    geo_json_4aacf512b0a4f70328839a80699f9778.bindTooltip(
+    geo_json_d836d81bbc41b0c1ed4f1da72bb78577.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -7769,7 +8019,7 @@
 });
                      
     
-    geo_json_4aacf512b0a4f70328839a80699f9778.bindPopup(
+    geo_json_d836d81bbc41b0c1ed4f1da72bb78577.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -7803,7 +8053,7 @@
 });
                      
     
-        function geo_json_9a019ab97baf790c8d1d6304dcf6cfae_pointToLayer(feature, latlng) {
+        function geo_json_b8a83178cb720c5cead02be762d7a8e1_pointToLayer(feature, latlng) {
             var opts = {
 };
             
@@ -7819,30 +8069,30 @@
             return new L.Marker(latlng, opts)
         }
 
-        function geo_json_9a019ab97baf790c8d1d6304dcf6cfae_onEachFeature(feature, layer) {
+        function geo_json_b8a83178cb720c5cead02be762d7a8e1_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_9a019ab97baf790c8d1d6304dcf6cfae = L.geoJson(null, {
-                onEachFeature: geo_json_9a019ab97baf790c8d1d6304dcf6cfae_onEachFeature,
+        var geo_json_b8a83178cb720c5cead02be762d7a8e1 = L.geoJson(null, {
+                onEachFeature: geo_json_b8a83178cb720c5cead02be762d7a8e1_onEachFeature,
             
-                pointToLayer: geo_json_9a019ab97baf790c8d1d6304dcf6cfae_pointToLayer,
+                pointToLayer: geo_json_b8a83178cb720c5cead02be762d7a8e1_pointToLayer,
             ...{
 }
         });
 
-        function geo_json_9a019ab97baf790c8d1d6304dcf6cfae_add (data) {
-            geo_json_9a019ab97baf790c8d1d6304dcf6cfae
+        function geo_json_b8a83178cb720c5cead02be762d7a8e1_add (data) {
+            geo_json_b8a83178cb720c5cead02be762d7a8e1
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/gaia-hazlab/catalog/refs/heads/main/precip-stations.geojson", {dataType: 'json', async: false})
-                .done(geo_json_9a019ab97baf790c8d1d6304dcf6cfae_add);
-        geo_json_9a019ab97baf790c8d1d6304dcf6cfae.setStyle(function(feature) {return feature.properties.style;});
+                .done(geo_json_b8a83178cb720c5cead02be762d7a8e1_add);
+        geo_json_b8a83178cb720c5cead02be762d7a8e1.setStyle(function(feature) {return feature.properties.style;});
 
         
     
-    geo_json_9a019ab97baf790c8d1d6304dcf6cfae.bindTooltip(
+    geo_json_b8a83178cb720c5cead02be762d7a8e1.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -7875,7 +8125,7 @@
 });
                      
     
-    geo_json_9a019ab97baf790c8d1d6304dcf6cfae.bindPopup(
+    geo_json_b8a83178cb720c5cead02be762d7a8e1.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -7909,10 +8159,10 @@
 });
                      
     
-            geo_json_9a019ab97baf790c8d1d6304dcf6cfae.addTo(map_22513cfbf34e184c45556c7591853a22);
+            geo_json_b8a83178cb720c5cead02be762d7a8e1.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
         
     
-        function geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78_pointToLayer(feature, latlng) {
+        function geo_json_ad12929ee6ed8878fe7023c5359bf568_pointToLayer(feature, latlng) {
             var opts = {
 };
             
@@ -7928,30 +8178,30 @@
             return new L.Marker(latlng, opts)
         }
 
-        function geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78_onEachFeature(feature, layer) {
+        function geo_json_ad12929ee6ed8878fe7023c5359bf568_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78 = L.geoJson(null, {
-                onEachFeature: geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78_onEachFeature,
+        var geo_json_ad12929ee6ed8878fe7023c5359bf568 = L.geoJson(null, {
+                onEachFeature: geo_json_ad12929ee6ed8878fe7023c5359bf568_onEachFeature,
             
-                pointToLayer: geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78_pointToLayer,
+                pointToLayer: geo_json_ad12929ee6ed8878fe7023c5359bf568_pointToLayer,
             ...{
 }
         });
 
-        function geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78_add (data) {
-            geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78
+        function geo_json_ad12929ee6ed8878fe7023c5359bf568_add (data) {
+            geo_json_ad12929ee6ed8878fe7023c5359bf568
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/gaia-hazlab/catalog/refs/heads/main/streamflow-stations.geojson", {dataType: 'json', async: false})
-                .done(geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78_add);
-        geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78.setStyle(function(feature) {return feature.properties.style;});
+                .done(geo_json_ad12929ee6ed8878fe7023c5359bf568_add);
+        geo_json_ad12929ee6ed8878fe7023c5359bf568.setStyle(function(feature) {return feature.properties.style;});
 
         
     
-    geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78.bindTooltip(
+    geo_json_ad12929ee6ed8878fe7023c5359bf568.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -7984,7 +8234,7 @@
 });
                      
     
-    geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78.bindPopup(
+    geo_json_ad12929ee6ed8878fe7023c5359bf568.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -8024,16 +8274,16 @@
               edit: {},
             }
                 // FeatureGroup is to store editable layers.
-                var drawnItems_draw_control_afa1b5810c70c23cfa1122773558d54c =
+                var drawnItems_draw_control_6bc0a203b983adeca89fb96b30500cc5 =
                     new L.featureGroup().addTo(
-                        map_22513cfbf34e184c45556c7591853a22
+                        map_e9bb77a6d690dde8e3d2bc8684c81b0e
                     );
 
-            options.edit.featureGroup = drawnItems_draw_control_afa1b5810c70c23cfa1122773558d54c;
-            var draw_control_afa1b5810c70c23cfa1122773558d54c = new L.Control.Draw(
+            options.edit.featureGroup = drawnItems_draw_control_6bc0a203b983adeca89fb96b30500cc5;
+            var draw_control_6bc0a203b983adeca89fb96b30500cc5 = new L.Control.Draw(
                 options
-            ).addTo( map_22513cfbf34e184c45556c7591853a22 );
-            map_22513cfbf34e184c45556c7591853a22.on(L.Draw.Event.CREATED, function(e) {
+            ).addTo( map_e9bb77a6d690dde8e3d2bc8684c81b0e );
+            map_e9bb77a6d690dde8e3d2bc8684c81b0e.on(L.Draw.Event.CREATED, function(e) {
                 var layer = e.layer,
                     type = e.layerType;
                 var coords = JSON.stringify(layer.toGeoJSON());
@@ -8041,15 +8291,15 @@
                     alert(coords);
                     console.log(coords);
                 });
-                drawnItems_draw_control_afa1b5810c70c23cfa1122773558d54c.addLayer(layer);
+                drawnItems_draw_control_6bc0a203b983adeca89fb96b30500cc5.addLayer(layer);
             });
-            map_22513cfbf34e184c45556c7591853a22.on('draw:created', function(e) {
-                drawnItems_draw_control_afa1b5810c70c23cfa1122773558d54c.addLayer(e.layer);
+            map_e9bb77a6d690dde8e3d2bc8684c81b0e.on('draw:created', function(e) {
+                drawnItems_draw_control_6bc0a203b983adeca89fb96b30500cc5.addLayer(e.layer);
             });
 
             
             document.getElementById('export').onclick = function(e) {
-                var data = drawnItems_draw_control_afa1b5810c70c23cfa1122773558d54c.toGeoJSON();
+                var data = drawnItems_draw_control_6bc0a203b983adeca89fb96b30500cc5.toGeoJSON();
                 var convertedData = 'text/json;charset=utf-8,'
                     + encodeURIComponent(JSON.stringify(data));
                 document.getElementById('export').setAttribute(
@@ -8062,7 +8312,7 @@
             
         
     
-            var measure_control_f2356dce06b4ff55ea938155df10ba37 = new L.Control.Measure(
+            var measure_control_6e62559000ed8a1f9606484bc736fb5d = new L.Control.Measure(
                 {
   "position": "topleft",
   "primaryLengthUnit": "meters",
@@ -8070,7 +8320,7 @@
   "primaryAreaUnit": "sqmeters",
   "secondaryAreaUnit": "acres",
 });
-            map_22513cfbf34e184c45556c7591853a22.addControl(measure_control_f2356dce06b4ff55ea938155df10ba37);
+            map_e9bb77a6d690dde8e3d2bc8684c81b0e.addControl(measure_control_6e62559000ed8a1f9606484bc736fb5d);
 
             // Workaround for using this plugin with Leaflet>=1.8.0
             // https://github.com/ljagis/leaflet-measure/issues/171
@@ -8096,27 +8346,27 @@
   "children": [
 {
   "label": "CartoDB",
-  "layer": tile_layer_8f7d5c11e26f82d11752b1323331e604,
+  "layer": tile_layer_2908d755ae252da4035cbacb1b841844,
 },
 {
   "label": "ESRI WorldImagery",
-  "layer": tile_layer_f7e754fa18a298e4fe44c5382b4bdaf7,
+  "layer": tile_layer_9b808f0ac4d446d2ce5cdd30f193b213,
 },
 {
   "label": "ESRI WorldShadedRelief",
-  "layer": tile_layer_e9cb75d3dbcb707908d37c0e3468cdd3,
+  "layer": tile_layer_90f92da2811c6765b12bf11d347c14c9,
 },
 {
   "label": "ESRI WorldTopoMap",
-  "layer": tile_layer_cb0282ce73d2ad3d108c38497b0722a7,
+  "layer": tile_layer_8a24a338a13d930ee31f8b410318ad4a,
 },
 {
   "label": "ESRI WorldGrayCanvas",
-  "layer": tile_layer_bc2a055053a602ed163a11f8903e05b5,
+  "layer": tile_layer_1f0040a9fe935ffa4ba7b2e539cfb728,
 },
 {
   "label": "ASTER GDEM Greyscale Shaded Relief",
-  "layer": macro_element_e705e41026965515f558ea34e42286fa,
+  "layer": macro_element_5d80a2d039c16ce342f8979adb3b2701,
 },
 ],
 },
@@ -8130,23 +8380,23 @@
   "children": [
 {
   "label": "Seismometers",
-  "layer": geo_json_be4b987a01c524ecc682e5cebe0f8d09,
+  "layer": geo_json_9ccd7000ac66452f5b305773b7fa945b,
 },
 {
   "label": "Infrasound",
-  "layer": geo_json_bd8c70af1e9a10500b2521a0f513c54e,
+  "layer": geo_json_4ca94e2accababafbcf5ce07f004bfcc,
 },
 {
   "label": "SNOTEL",
-  "layer": geo_json_4aacf512b0a4f70328839a80699f9778,
+  "layer": geo_json_d836d81bbc41b0c1ed4f1da72bb78577,
 },
 {
   "label": "Precipitation",
-  "layer": geo_json_9a019ab97baf790c8d1d6304dcf6cfae,
+  "layer": geo_json_b8a83178cb720c5cead02be762d7a8e1,
 },
 {
   "label": "Streamflow",
-  "layer": geo_json_d20c4be2c0a14f9a8cd3ca50612d6f78,
+  "layer": geo_json_ad12929ee6ed8878fe7023c5359bf568,
 },
 ],
 },
@@ -8156,27 +8406,27 @@
   "children": [
 {
   "label": "SOLUS100 Soil Depth",
-  "layer": tile_layer_256bc7b7061965c555dc4af4c4c6b328,
+  "layer": tile_layer_99c9d8561853283d7c744cd1e5536861,
 },
 {
   "label": "USGS Vs30 Mosaic",
-  "layer": tile_layer_c928c21a47b394baae72f8be49a0215b,
+  "layer": tile_layer_e13801ca45bed2351316886ee066788c,
 },
 {
   "label": "ASTER_GDEM_Color_Index",
-  "layer": macro_element_fb17fbe8779968ded7253ded95a226c6,
+  "layer": macro_element_c14076a5f3ed531124d69754d3262f6c,
 },
 {
   "label": "OPERA Annual Disturbance 2025",
-  "layer": macro_element_51f6cb3a8911810d9f72593179a13332,
+  "layer": macro_element_fde1defce467491a6ad260ba68d23b87,
 },
 {
   "label": "Stage IV Precip, Dec. 2025",
-  "layer": tile_layer_607d4e700caa631797ec18095137389c,
+  "layer": tile_layer_85ac32fbf0342e6203d686613f079118,
 },
 {
   "label": "Max ERM, Dec. 2025",
-  "layer": tile_layer_8f0300a222ee0e6944aa8f413ee6e92a,
+  "layer": tile_layer_8dfcf2b09a15c65458abc6c6890053c0,
 },
 ],
 },
@@ -8186,15 +8436,23 @@
   "children": [
 {
   "label": "2025 Earthquake Catalog",
-  "layer": geo_json_fee8027abd9c3777a12708f8a9c96249,
+  "layer": geo_json_b46b1f5c1d6da2273423b217e97c4235,
+},
+{
+  "label": "WA DNR Wildfire boundaries (\u003e=2023)",
+  "layer": geo_json_92489a18b6c2ae696aa4f65f110e50af,
+},
+{
+  "label": "WA DNR Reported Landslides WY2025",
+  "layer": geo_json_e844c4cb7a101cdd5f57e3f2e897d36b,
 },
 {
   "label": "Google Roads",
-  "layer": tile_layer_2c52e79f30711d2aa8fda40430e30301,
+  "layer": tile_layer_5fa67e52da01879d6c6e506fbfbf0695,
 },
 {
-  "label": "Watershed Sub-basins (Huc8)",
-  "layer": geo_json_48aa1db5dcc1cab80c5c3ba7f7bdcc4d,
+  "label": "Watershed Sub-basins (HUC8)",
+  "layer": geo_json_6cf3e649c298dd54c347a54d78ffcf56,
 },
 ],
 },
@@ -8210,16 +8468,16 @@
   "expandAll": "",
   "labelIsSelector": "both",
 }
-            ).addTo(map_22513cfbf34e184c45556c7591853a22);
+            ).addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
         
     
-            tile_layer_64e13955d1c927cb1ea92b6f8fde969c.addTo(map_22513cfbf34e184c45556c7591853a22);
+            tile_layer_431ba715396991d43024e2770236d9fd.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
         
     
-            tile_layer_8f7d5c11e26f82d11752b1323331e604.addTo(map_22513cfbf34e184c45556c7591853a22);
+            tile_layer_2908d755ae252da4035cbacb1b841844.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
         
     
-            geo_json_9a019ab97baf790c8d1d6304dcf6cfae.addTo(map_22513cfbf34e184c45556c7591853a22);
+            geo_json_b8a83178cb720c5cead02be762d7a8e1.addTo(map_e9bb77a6d690dde8e3d2bc8684c81b0e);
         
 </script>
 </html>
